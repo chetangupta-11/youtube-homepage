@@ -1,0 +1,79 @@
+.thumbnail {
+    width: 300px;
+    display: block;
+    /* margin-left: 10px; */
+}
+
+.search-bar {
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #d6d6d6;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: #3875f7;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 100px;
+
+}
+
+.channel-picture{
+    display: inline-block;
+    width: 50px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+.video-info {
+    display: inline-block;
+    margin-top: 0;
+    width: 240px;
+}
+.video-title {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.video-author {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #606060;
+    margin-bottom: 0px;
+    /* margin: 5px 0 0 50px; */
+}
+
+.video-stats {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #606060;
+    margin-top: 2px;
+}
+
+.video-preview {
+    display: inline-block;
+    /* align-items: center; */
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+    /* border-radius: 10px; */
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+

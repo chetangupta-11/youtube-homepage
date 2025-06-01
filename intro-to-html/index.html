@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Web Page</title>
+        <link rel="stylesheet" href="buttons.css">
+    </head>
+    <body>
+        <p id="home"><a href="https://www.amazon.com" target="_blank">Back to Amazon</a></p>
+        <p id="p1">Nike Black Running Shoes</p>
+        <p id="p2">Price: $120</p>
+        <p id="p3">Available Sizes: 7, 8, 9, 10, 11</p>
+        <button id="buy" class="buy">BUY NOW</button>
+        <button class="cart">Add to Cart</button>
+        <button id="join">JOIN</button>
+    <script>    
+    document.getElementById("buy").addEventListener("click", function() {
+        alert("Thank you for your purchase!");
+    });
+
+    document.querySelector(".cart").addEventListener("click", function() {
+        alert("Item added to cart!");
+    });
+
+    document.getElementById("join").addEventListener("click", function() {
+        alert("Welcome to our community!");
+    });
+    </script>
+    </body>
+</html>

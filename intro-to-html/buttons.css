@@ -1,0 +1,85 @@
+#home{
+    font-size: 20px;
+    color: red;
+}
+
+#home:hover{
+    color: rgb(255, 0, 255);
+}
+
+#p1{
+    font-size: 24px;
+    margin: 10px 0;
+    transition: font-weight 0.2s ease;
+}
+
+#p1:hover{
+    font-weight: bold;
+}
+
+#p2{
+    color: rgb(0, 118, 0);
+    font-size: 20px;
+    margin: 2px 0;
+}
+
+.buy{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    /* width: 200px; */
+    border-radius: 10px;
+    transition: background-color 0.3s, padding 0.5s;  
+}
+
+.buy:hover{
+    background-color: darkred;
+    padding: 12px 25px;
+}
+
+.buy:active{
+    opacity: 0.5;
+}
+
+.cart{
+    background-color: rgb(91, 161, 242);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px 30px;
+    /* width: 150px; */
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.cart:hover{
+    background-color: rgb(47, 149, 217);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#join{
+    background-color: WHITE;
+    color: rgb(47, 149, 217);
+    border: 2px solid rgb(47, 149, 217);
+    padding: 8px 20px;
+    /* width: 150px; */
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s, margin 0.15s;
+}
+
+#join:active{
+    background-color: rgb(47, 149, 217);
+    color: white;
+    box-shadow: 0px 0px 0 rgba(0, 0, 0, 0);
+    margin-left: 15px;
+    margin-top: 15px;
+}
