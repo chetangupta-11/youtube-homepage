@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>My First Web Page </title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                html {
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                line-height: 1.6;
+                letter-spacing: 1px;
+                }
+
+                table,tr,td,th {
+                    border-collapse: collapse;
+                    border: 1px solid #676464;
+                    padding: 5px;
+                }
+            </style>
+        </head>
+
+        <body>
+            <header>
+                <h1> Hello World!</h1>
+                
+                <!-- List of internal links -->
+                <nav>
+                    <ul>
+                        <li><a href="#first-section">First Section</a></li>
+                        <li><a href="#second-section">Second Section</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <hr>
+            <main>
+                <article>
+                    <section id="first-section">
+                        <h2>Welcome to first section of this webpage</h2>
+                        <p>This is my first web page.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, sit. Iure unde cum eos, ducimus minima reprehenderit quibusdam ratione, <em>architecto</em> alias ipsum veniam delectus repellendus. Natus blanditiis velit nisi quo!</p>
+                    </section>
+                    <hr>
+                    <section id="second-section">
+                        <h2>Welcome to second section of this webpage</h2>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                        </ul>
+                        <p>This is my second web page using <abbr title="Hypertext Markup Language"><a href="https://www.google.com" target="_blank">HTML</a></abbr>.</p>
+                        <p>Lorem ipsum dolor sit amet <strong>consectetur</strong> adipisicing elit. Illo, sit.<br>Iure unde cum eos, ducimus minima reprehenderit quibusdam ratione, architecto alias ipsum veniam delectus repellendus. Natus blanditiis velit nisi quo!</p>
+
+                    <figure>
+                        <img src="../images/thumbnail-1.webp" alt="Tech Talk" title="Sundar Pichai on AI" loading="lazy" height="200" width="350">
+                        <figcaption>Tech Talk with Sundar Pichai</figcaption>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                    </figure>
+                    </section>
+                    
+                    <section>
+                        <table>
+                            <caption>My Daily Schedule</caption>
+                            <tr>
+                                <th> Time </th>
+                                <th> Activity </th>
+                            </tr>
+                            <tr>
+                                <td> <time datetime="10:00">10 AM</time> - <time datetime="12:00">12 PM</time> </td>
+                                <td> Learn HTML </td>
+                            </tr>
+                            <tr>
+                                <td> <time datetime="12:00">12 PM</time> - <time datetime="13:00">1 PM</time> </td>
+                                <td> Lunch Break </td>
+                            </tr>
+                        </table>
+                    </section>
+                </article> 
+                <hr>
+                <article>
+                    <h2>Contact Me</h2>
+                    <form action="">
+                        <fieldset>
+                            <legend> Personal Information </legend>
+                            <p>
+                                <label for="firstName">First Name:</label>
+                                <input type="text" id="firstName" name="firstName" placeholder="Chetan" required>  <!-- id of input must match with for of label -->
+                            </p>
+                            <p>
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" id="lastName" name="lastName" placeholder="Gupta" required>  <!-- id of input must match with for of label -->
+                            </p>
+                            <p>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="abc@xyz.com" required>
+                            </p>
+                            <p>
+                                <label for="phone">Telephone: </label>
+                                <input type="tel" id="phone" name="phone" placeholder="9810000000" pattern="[0-9]{10}" required>
+                            </p>
+                            <p>
+                                <label for="city">City:</label>
+                                <select name="city" id="city">
+                                    <option value="delhi">Delhi</option>
+                                    <option value="mumbai">Mumbai</option>
+                                    <option value="bangalore">Bangalore</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </p>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Your Message</legend>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                        </fieldset>
+                        <p>
+                            <button type="submit">Submit</button>
+                        </p>
+                    </form>
+                </article>
+            </main>
+        <hr>
+            <footer>
+                <p>&copy;Chetan Gupta</p>
+                <p>Follow me on 
+                    <a href="https://www.facebook.com" target="_blank">Facebook</a>, 
+                    <a href="https://www.twitter.com" target="_blank">Twitter</a>, 
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                </p>
+                <p>Last updated: <time datetime="2025-06-13">June 13, 2025</time></p>
+                <p><a href="#">Back to Top</a></p>
+            </footer>
+        </body>
+    </html>
